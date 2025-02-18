@@ -1,7 +1,6 @@
 # Computer Science 639: Data Management for Data Scientists
 University of Wisconsin, Madison
 Fall 2024
-Syllabus
 
 
 
@@ -76,59 +75,5 @@ Midterm will be held on Wednesday, October, 16th
 
 Quizzes
 There will be a short Canvas quiz due at the end of most Wednesdays. Make sure you know the rules regarding what is allowed and what is not.
-
-Allowed
-however much time you need
-discussing answers with classmates who are taking the quiz at the same time
-referencing texts, notes, or provided course materials
-searching online for general information
-running code
-NOT allowed
-taking it more than once
-discussing answers with anybody outside of the course
-discussing with classmates who have already completed the quiz when you haven't completed it yourself yet
-posting anything online about the quizzes
-using such material potentially posted by other students who broke the preceding rule
-getting TA/instructor help on quiz questions prior to the quiz deadline
-Projects
-See project policies here.
-
-Participation
-Some of the things that count towards participation:
-
-TopHat (most important)
-filling class surveys
-accepted pull requests fixing issues with project specifications
-instructor endorsed piazza contributions (be sure to use your NETID@wisc.edu email so we can identify you)
-other...
-Academic Misconduct
-Code copying between students is not allowed in this course, except between project partners. Copying includes emailing, taking photos, looking while typing line by line, etc. Copying code then changing it is still copying and thus not allowed. Lock your compute when it's not attended.
-
-Be sure to read and understand the full project collaboration policies here.
-
-Citing ChatGPT (or other LLMs): it's allowed with proper citation (see above link for details).
-
-Citing Online Resources: you can copy small snippets of code from stackoverflow (and other online references) if you cite them. For example, suppose I need to write some code that gets the median number from a list of numbers. I might search for "how to get the median of a list in python" and find a solution at https://stackoverflow.com/questions/24101524/finding-median-of-list-in-python.
-
-I could (legitimately) post code from that page in my code, as long as it has a comment as follows:
-
-    # copied/adapted from https://stackoverflow.com/questions/24101524/finding-median-of-list-in-python
-    def median(lst):
-      sortedLst = sorted(lst)
-      lstLen = len(lst)
-      index = (lstLen - 1) // 2
-
-      if (lstLen % 2):
-        return sortedLst[index]
-      else:
-        return (sortedLst[index] + sortedLst[index + 1])/2.0
-  
-In contrast, copying from a nearly complete project you find online (that accomplishes what you're trying to do for your project) is not OK. When in doubt, ask us! The best way to stay out of trouble is to be completely transparent about what you're doing.
-
-Recommendation Letters
-Earning a recommendation letter is much harder than earning an A in this course. At a minimum, I'll want to see you doing something complex and interesting beyond the assingments. For a typical letter, I'll have collaborated with a student on some project for multiple months, with many iterations of feedback.
-
-Most grad schools require recommenders to fill long forms rating students on various abilities (see an example below). Make sure that if you're asking me, I would be able to fill such a form without needing to put "I don't know" as my answer to many of the questions.
-
 
 
